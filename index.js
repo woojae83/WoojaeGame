@@ -131,7 +131,7 @@ const cardArray = [
     for (let i = 0; i < gameDOM.length; i++){
         for(let j = 0; j < gameDOM[i].length; j++){
             const card = document.createElement("img");
-            card.setAttribute("src", "./img/question-mark.png")//card에 물음표 이미지를 넣어준다
+            card.setAttribute("src", "img/question-mark.png")//card에 물음표 이미지를 넣어준다
             card.classList.add("eachImage");//카드에 클래스를 넣어준다
             gameDOM[i][j].appendChild(card);//해당DOM(html column 자식태그) 정보에 접근해서 거기에 싹다 이미지 태그를 달아줌
         }
